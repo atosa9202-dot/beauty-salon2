@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راهنمای قالب | سالن زیبایی دلارا</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Vazir', Tahoma, sans-serif;
+            background: #f0f0f0;
+            padding: 40px 20px;
+            line-height: 1.7;
+            direction: rtl;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 45px;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #C45B6E;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+        }
+        h2 {
+            color: #2C1B2C;
+            margin: 35px 0 15px 0;
+            padding-right: 12px;
+            border-right: 4px solid #C45B6E;
+        }
+        h3 {
+            margin: 25px 0 10px 0;
+            color: #555;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-family: monospace;
+            direction: ltr;
+            display: inline-block;
+            font-size: 13px;
+        }
+        pre {
+            background: #1e1e1e;
+            color: #f8f8f2;
+            padding: 18px;
+            border-radius: 12px;
+            overflow-x: auto;
+            margin: 18px 0;
+            direction: ltr;
+            text-align: left;
+            font-size: 13px;
+        }
+        .note {
+            background: #FFF3E0;
+            border-right: 4px solid #C45B6E;
+            padding: 18px 22px;
+            margin: 25px 0;
+            border-radius: 12px;
+        }
+        .warning {
+            background: #FFE4E4;
+            border-right: 4px solid #E8636B;
+            padding: 18px 22px;
+            margin: 25px 0;
+            border-radius: 12px;
+        }
+        ul, ol {
+            margin-right: 25px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        hr {
+            margin: 35px 0;
+            border: none;
+            border-top: 1px solid #eee;
+        }
+        .footer-note {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #888;
+            font-size: 13px;
+        }
+        .badge {
+            display: inline-block;
+            background: #C45B6E;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>📄 راهنمای استفاده از قالب سالن زیبایی دلارا</h1>
+    <p>با تشکر از خرید شما! قالب <strong>سالن زیبایی دلارا</strong> یک قالب حرفه‌ای برای سالن‌های زیبایی، آرایشگاه‌ها و کلینیک‌های زیبایی است.</p>
+
+    <div class="note">
+        <strong>✅ نیازمندی‌ها</strong><br>
+        • یک مرورگر (کروم، فایرفاکس، اج)<br>
+        • یک ویرایشگر متن (VS Code، Notepad++)<br>
+        • یک هاست معمولی (اختیاری)
+    </div>
+
+    <div class="warning">
+        <strong>⚠️ نکته مهم</strong><br>
+        اگر بعد از باز کردن قالب، ظاهر آن به هم ریخته بود، کلیدهای <strong>Ctrl + F5</strong> را بزنید تا کش مرورگر پاک شود.
+    </div>
+
+    <h2>📁 1. ساختار فایل‌ها</h2>
+    <pre>
+delara-salon/
+│
+├── index.html          (صفحه اصلی)
+├── services.html       (خدمات)
+├── gallery.html        (گالری)
+├── blog.html           (وبلاگ)
+├── shop.html           (فروشگاه)
+├── about.html          (درباره ما)
+├── contact.html        (تماس با ما)
+├── reserve.html        (رزرو نوبت)
+│
+├── style.css           (استایل اصلی)
+├── responsive.css      (ریسپانسیو)
+├── app.js              (جاوااسکریپت)
+│
+└── images/             (عکس‌ها)
+    </pre>
+<h2>✨ 2. قابلیت‌های قالب</h2>
+    
+    <h3>قابلیت‌های ظاهری</h3>
+    <ul>
+        <li>10 سکشن حرفه‌ای در صفحه اصلی</li>
+        <li>8 صفحه کامل و آماده</li>
+        <li>طراحی ریسپانسیو (سازگار با موبایل و تبلت)</li>
+        <li>فرم رزرو نوبت پیشرفته</li>
+        <li>گالری تصاویر با افکت زیبا</li>
+        <li>فونت فارسی وزیر</li>
+    </ul>
+
+    <h3>قابلیت‌های جاوااسکریپت</h3>
+    <ul>
+        <li><span class="badge">جدید</span> انیمیشن اسکرول با افکت محو و حرکت</li>
+        <li><span class="badge">جدید</span> افکت تایپ روی عنوان اصلی</li>
+        <li><span class="badge">جدید</span> منوی همبرگری در موبایل</li>
+        <li><span class="badge">جدید</span> هدر چسبنده با افکت شیشه‌ای</li>
+        <li><span class="badge">جدید</span> دکمه بازگشت به بالا</li>
+        <li><span class="badge">جدید</span> گالری لایت باکس</li>
+        <li><span class="badge">جدید</span> اعتبارسنجی فرم‌ها (رزرو و تماس)</li>
+        <li><span class="badge">جدید</span> اسکرول نرم بین بخش‌ها</li>
+    </ul>
+
+    <h2>📞 3. تغییر اطلاعات تماس</h2>
+    <p>اطلاعات تماس در تمام صفحات وجود دارد. برای تغییر کافیست فایل مورد نظر را باز کنید و مقادیر زیر را پیدا کنید:</p>
+    <ul>
+        <li>شماره تلفن: <code>۰۲۱-۲۲۳۳۴۴۵۵</code></li>
+        <li>آدرس ایمیل: <code>info@delarabeauty.com</code></li>
+        <li>آدرس: <code>تهران، خیابان ولیعصر، پلاک ۱۰۲۰</code></li>
+    </ul>
+
+    <h2>🖼️ 4. تغییر عکس‌ها</h2>
+    <p>عکس‌ها در پوشه <code>images/</code> قرار دارند. برای تغییر عکس‌ها:</p>
+    <ul>
+        <li>عکس جدید خود را با همان نام قبلی ذخیره کنید (جایگزینی)</li>
+        <li>یا نام فایل جدید را در فایل HTML تغییر دهید</li>
+    </ul>
+
+    <h3>لیست عکس‌های قالب:</h3>
+    <ul>
+        <li><code>hero-bg.jpg</code> - عکس بنر اصلی</li>
+        <li><code>about-salon.jpg</code> - عکس درباره ما</li>
+        <li><code>team-1.jpg</code> تا <code>team-3.jpg</code> - عکس تیم متخصصان</li>
+        <li><code>gallery-1.jpg</code> تا <code>gallery-9.jpg</code> - عکس‌های گالری</li>
+        <li><code>blog-1.jpg</code> تا <code>blog-6.jpg</code> - عکس‌های وبلاگ</li>
+        <li><code>product-1.jpg</code> تا <code>product-6.jpg</code> - عکس‌های فروشگاه</li>
+    </ul>
+
+    <h2>🍽️ 5. تغییر منوی خدمات و قیمت‌ها</h2>
+    <p>فایل <code>services.html</code> را باز کنید. هر آیتم به این شکل است:</p>
+    <pre>&lt;div class="service-row"&gt;
+    &lt;div class="service-info"&gt;
+        &lt;h3&gt;نام خدمت&lt;/h3&gt;
+        &lt;p&gt;توضیحات کوتاه&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="service-price"&gt;قیمت تومان&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+    <h2>🎨 6. تغییر رنگ قالب</h2>
+    <p>فایل <code>style.css</code> را باز کنید. در ابتدای فایل متغیرهای رنگ قرار دارند:</p>
+    <pre>:root {
+    --primary: #C45B6E;
+    --primary-dark: #A84558;
+    --text-dark: #2E1B2E;
+}</pre>
+    <p>عدد هگزادسیمال را با رنگ دلخواه خود عوض کنید.</p>
+
+    <h2>🛠️ 7. نکات فنی</h2>
+    <p>اگر قالب در مرورگر نامرتب نمایش داده شد:</p>
+    <ul>
+        <li>کلیدهای <strong>Ctrl + F5</strong> را بزنید</li>
+        <li>یا کش مرورگر را پاک کنید</li>
+        <li>یا مرورگر را ببندید و دوباره باز کنید</li>
+    </ul>
+
+    <div class="note">
+        <strong>💡 نکته مهم</strong><br>
+        قالب با HTML، CSS و جاوااسکریپت خالص ساخته شده و نیازی به دیتابیس ندارد.
+    </div>
+
+    <h2>❓ 8. سوالات متداول</h2>
+    
+    <h3>چرا عکس‌ها نمایش داده نمی‌شوند؟</h3>
+    <p>حتماً پوشه <code>images</code> در مسیر درست قرار دارد و نام فایل‌ها با نام‌های داخل کد مطابقت دارد.</p>
+
+    <h3>چطور قالب را روی هاست آپلود کنم؟</h3>
+    <p>کل پوشه قالب را با FTP در ریشه هاست آپلود کنید. فایل اصلی <code>index.html</code> است.</p>
+
+    <h3>آیا فرم‌ها کار می‌کنند؟</h3>
+    <p>بله، فرم‌ها دارای اعتبارسنجی جاوااسکریپت هستند و مقادیر ورودی را بررسی می‌کنند. برای ارسال واقعی به سرور نیاز به تنظیم backend دارید.</p>
+
+    <hr>
+    <div class="footer-note">
+        © ۱۴۰۴ - قالب سالن زیبایی دلارا | طراحی شده با HTML، CSS و جاوااسکریپت
+    </div>
+
+</div>
+</body>
+</html>
